@@ -19,11 +19,11 @@ computer_vision/
 |   ├── task3_invisibleCloak_windows.py
 │   ├── colorSelection.py
 │   ├── webCamExample.py
-│   ├── imgs
+│   ├── imgs/
 │   ├── README.md
 │   └── demo_video.mp4
 ├── homework04/
-│   ├── imgs
+│   ├── imgs/
 │   ├── solutions.md 
 │   ├── generate_imgs.py
 │   └── homework04.py
