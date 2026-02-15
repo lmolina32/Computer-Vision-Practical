@@ -22,6 +22,11 @@ computer_vision/
 │   ├── imgs
 │   ├── README.md
 │   └── demo_video.mp4
+├── homework04/
+│   ├── imgs
+│   ├── solutions.md 
+│   ├── generate_imgs.py
+│   └── homework04.py
 └── README.md
 ```
 
@@ -37,4 +42,3 @@ This repository is for academic purposes only as part of CSE 40535 Computer Visi
 
 - Course materials and starter code provided by CSE 40535 instructors
 - OpenCV documentation and tutorials
-- University of Notre Dame Computer Science Department
