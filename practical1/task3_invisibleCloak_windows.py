@@ -77,8 +77,8 @@ while(cap.isOpened()):
     
     #######################################################
     # ***TASK FOR YOU: use hsvSelection.py to find good color ranges for your invisible cloak:
-    lower_hsv = np.array([42, 95, 92])
-    upper_hsv = np.array([49, 119, 106])
+    lower_hsv = np.array([172, 90, 98])
+    upper_hsv = np.array([180, 133, 130])
     mask = cv2.inRange(hsv,lower_hsv,upper_hsv)
 
     # If you see more than one peak in either of the histograms, you can keep adding separate masks for all such peaks:
@@ -106,7 +106,7 @@ while(cap.isOpened()):
     # "res1" with pixel values equal to the pixel values of the static background
     # within the detected invisible cloak region.
     # 
-    res1 = cv2.bitwise_and(background, background, mask)
+    res1 = cv2.bitwise_and(background, background, mask=mask)
     cv2.imshow("res1", res1)
     #######################################################
 
@@ -118,7 +118,7 @@ while(cap.isOpened()):
     # Tip: you may need to invert your mask array -- use cv2.bitwise_not() for this purpose.
     # 
     mask2 = cv2.bitwise_not(mask)
-    res2 = cv2.bitwise_and(bgr, bgr, mask2)
+    res2 = cv2.bitwise_and(bgr, bgr, mask=mask2)
     cv2.imshow("res2", res2)
     #######################################################
 

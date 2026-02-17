@@ -1,4 +1,4 @@
-# Computer Vision I (CSE 40535/60535)
+#) Computer Vision I (CSE 40535/60535)
 # University of Notre Dame, Fall 2023
 # ________________________________________________________________
 # Adam Czajka, Andrey Kuehlkamp; first version: September 2017
