@@ -6,13 +6,13 @@ I created a script called `generate_imgs.py` that creates imgs in an `img` direc
 * extra credit -> edge detection used sobel kernel 
 
 # Filtering img 
-![Filtering img](/imgs/filter_pattern.png)
+![Filtering img](/homework04/imgs/filter_pattern.png)
 
 # Binarization img 
-![Binarization img](/imgs/binarization.png)
+![Binarization img](/homework04/imgs/binarization.png)
 
 # Morphological img
-![Morphological img](/imgs/final_image.png)
+![Morphological img](/homework04/imgs/final_image.png)
 
 # Extra Credit
-![Sobel kernel](/imgs/extra_credit.png)
+![Sobel kernel](/homework04/imgs/extra_credit.png)
