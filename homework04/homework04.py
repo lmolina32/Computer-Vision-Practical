@@ -15,20 +15,20 @@ gray = cv2.imread("imgs/pattern.png",cv2.IMREAD_GRAYSCALE)
 #    ksize  - size of kernel in pixels (n, n), i.e., size of our neighborhood
 #    sigma  - size of the Gaussian envelope, i.e., how wide is our Gaussian "hat"
 #    theta  - orientation of the normal to the filter's oscilation pattern; e.g., theta = 0.0 means vertical stripes
-#    lambda - wavelength of the sinusoidal oscilation; this together with sigma 
+#    lambda - wavelength of the sinusoidal oscilation; this together with sigma
 #             is resposinble for frequencies enhanced by this filter
 #    gamma  - spatial aspect ratio; keep it 1
 #    phi    - phase offset; keep it 0
 #    ktype  - type and range of values that each pixel in the gabor kernel can hold; keep it cv2.CV_32F
 
 # ***TASK*** Select parameters of your Gabor kernel here:
-# 5 2, 2 -> best 
+# 5 2, 2 -> best
 # 10, 3, 3 -> mid
 
 # 5 4 2
 ksize = 9     # try something between 5 and 15
 sigma = 4.0     # try something between 2.0 and 4.0
-theta = 0.0     # keep it 0.0 if you want to focus on vertically-oriented patterns 
+theta = 0.0     # keep it 0.0 if you want to focus on vertically-oriented patterns
 lbd = 2.0     # try something between 2.0 and 4.0
 gamma = 1.0     # keep it 1.0
 psi = 0.0       # keep it 0.0
@@ -73,7 +73,7 @@ se = np.ones((se_size,se_size), np.uint8)
 type = cv2.MORPH_CLOSE
 res3 = cv2.morphologyEx(res2, type, kernel=se)
 
-se_size = 5
+se_size = 13
 se = np.ones((se_size, se_size), np.uint8)
 type = cv2.MORPH_OPEN
 res3 = cv2.morphologyEx(res3, type, kernel=se)
