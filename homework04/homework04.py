@@ -72,9 +72,14 @@ se = np.ones((se_size,se_size), np.uint8)
 
 type = cv2.MORPH_CLOSE
 res3 = cv2.morphologyEx(res2, type, kernel=se)
+
+se_size = 5
+se = np.ones((se_size, se_size), np.uint8)
+type = cv2.MORPH_OPEN
+res3 = cv2.morphologyEx(res3, type, kernel=se)
+
 cv2.imwrite("imgs/final_image.png", res3)
 cv2.imshow("Areas with vertical pattern annotated",res3)
-
 
 # Adapted from https://docs.opencv.org/4.x/d2/d2c/tutorial_sobel_derivatives.html
 sobelx = cv2.Sobel(res3, cv2.CV_64F, 1, 0, ksize=3)
