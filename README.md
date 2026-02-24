@@ -10,28 +10,6 @@ This repository contains my completed practical assignments for CSE 40535 Comput
 
 ---
 
-## Repository Structure
-
-```
-computer_vision/
-├── practical1/
-│   ├── task2_colorTracking_windows.py
-|   ├── task3_invisibleCloak_windows.py
-│   ├── colorSelection.py
-│   ├── webCamExample.py
-│   ├── imgs/
-│   ├── README.md
-│   └── demo_video.mp4
-├── homework04/
-│   ├── imgs/
-│   ├── solutions.md 
-│   ├── generate_imgs.py
-│   └── homework04.py
-└── README.md
-```
-
----
-
 ## License
 
 This repository is for academic purposes only as part of CSE 40535 Computer Vision coursework at the University of Notre Dame. Do not distribute or copy without permission.
