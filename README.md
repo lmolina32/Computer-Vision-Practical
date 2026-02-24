@@ -1,4 +1,4 @@
-# CSE 40535 Computer Vision - Practicals
+# CSE 40535 Computer Vision 
 
 **Student:** Leonardo Molina  
 **Semester:** Spring 2026  
@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository contains my completed practical assignments for CSE 40535 Computer Vision. Each practical includes implementation code, documentation, and answers to assignment questions.
+This repository contains my completed practical assignments and homeworks for CSE 40535 Computer Vision. Each practical/homework includes implementation code, documentation, and answers to assignment questions.
 
 ---
 
